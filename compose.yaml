@@ -33,7 +33,7 @@ services:
     networks:
       - app-network
     volumes:
-      - wp-content:/var/www/html/wp-content
+      - ./wordpress:/var/www/html/
     restart: always
 
 networks:
@@ -41,7 +41,6 @@ networks:
     
 
 volumes:
-  wp-content:
   mysql_data:
    
    
