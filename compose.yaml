@@ -39,7 +39,7 @@ services:
       db:
         condition: service_healthy
     ports:
-      - "8000:80"
+      - "80:80"
     env_file:
       - ./env/wp.env
     networks:
