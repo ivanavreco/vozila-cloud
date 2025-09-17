@@ -1094,7 +1094,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (469, 'um_last_version_upgrade', '2.8.2', 'yes'),
 (470, 'um_first_activation_date', '1705575664', 'yes'),
 (471, 'um_version', '2.8.2', 'yes'),
-(472, '__ultimatemember_sitekey', 'localhost-syp8U3jQJ430LnlYAYmj', 'yes'),
+(472, '__ultimatemember_sitekey', 'localhost:8000-syp8U3jQJ430LnlYAYmj', 'yes'),
 (473, 'um_is_installed', '1', 'yes'),
 (474, 'um_core_forms', 'a:3:{s:8:\"register\";i:15;s:5:\"login\";i:16;s:7:\"profile\";i:17;}', 'yes'),
 (475, 'um_core_directories', 'a:1:{s:7:\"members\";i:18;}', 'yes');
