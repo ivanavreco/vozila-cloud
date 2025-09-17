@@ -4,6 +4,8 @@ services:
   db:
     image: mysql
     container_name: iv20241038-db
+    ports:
+      - "3306:3306"
     env_file:
       - ./env/database.env
     networks:
@@ -12,7 +14,7 @@ services:
       - mysql_data:/var/lib/mysql
       - ./db_init/:/docker-entrypoint-initdb.d
     healthcheck: 
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost",  "-u", "user",  "--password=pass",]
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "ivana1", "--password=ivana1"]
       interval: 10s
       timeout: 10s
       retries: 6
