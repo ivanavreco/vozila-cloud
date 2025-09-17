@@ -1,0 +1,59 @@
+name: iv20241038-app
+
+services:
+  db:
+    image: mysql
+    container_name: iv20241038-db
+    env_file:
+      - ./env/database.env
+    networks:
+      - app-network
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./db_init/:/docker-entrypoint-initdb.d
+    healthcheck: 
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost",  "-u", "user",  "--password=pass",]
+      interval: 10s
+      timeout: 10s
+      retries: 6
+    restart: always
+
+  phpmyadmin:
+    container_name: iv20241038-ph
+    image: phpmyadmin
+    ports:
+      - "8080:80"
+    env_file:
+      - ./env/phpmyadmin.env
+    networks: 
+      - app-network
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: always
+  
+  wordpress:
+    image: wordpress 
+    container_name: iv20241038-wp
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:80"
+    env_file:
+      - ./env/wp.env
+    networks:
+      - app-network
+    volumes:
+      - ./wordpress:/var/www/html
+    restart: always
+
+networks:
+  app-network:
+    
+
+volumes:
+  wordpress:
+  mysql_data:
+   
+   

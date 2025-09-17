@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/OpenSans-Normal",
+        "bold": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/OpenSans-Bold",
+        "italic": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/OpenSans-Italic",
+        "bold_italic": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/Segoe-Normal",
+        "bold": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/Segoe-Bold",
+        "italic": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/Segoe-Italic",
+        "bold_italic": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/RobotoSlab-Normal",
+        "bold": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/RobotoSlab-Bold",
+        "italic": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/currencies",
+        "bold": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/currencies",
+        "italic": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/currencies",
+        "bold_italic": "C:\/xampp2\/htdocs\/vozila\/wordpress\/wp-content\/uploads\/wpo_wcpdf_8e6d265fa1df3ead892986b3ce8ca31f\/fonts\/currencies"
+    }
+}
